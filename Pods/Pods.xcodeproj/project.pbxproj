@@ -923,6 +923,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks\n\n$(PLATFORM_DIR)/Developer/Library/Frameworks\n\n$(PLATFORM_DIR)/Developer/Library/Frameworks\n\n",
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Specta/Specta-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
@@ -1045,6 +1049,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks\n\n$(PLATFORM_DIR)/Developer/Library/Frameworks\n\n$(PLATFORM_DIR)/Developer/Library/Frameworks\n\n",
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Specta/Specta-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
